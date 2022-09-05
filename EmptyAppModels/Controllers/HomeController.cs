@@ -16,12 +16,8 @@ public class HomeController : Controller
     public IActionResult Index(Person person)
     {
         if (ModelState.IsValid)
-        {
             return View("Success", person);
-        }
         else
-        {
             return View();
-        }
     }
 }

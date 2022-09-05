@@ -1,18 +1,21 @@
 ﻿@model EmptyAppModels.Models.Person
-
-@{
-    Layout = null;
-}
-
 <!DOCTYPE html>
 
 <html>
 <head>
-    <title></title>
+    <title>Success! @Model.Name</title>
 </head>
 <body>
 <div>
-    @Model.Name - @Model.Age
+    Name: @Model.Name 
+    Age: @Model.Age
+    
+    <script>
+        window.onbeforeunload = function (e) 
+        {
+            window.location.replace("/");
+        }
+    </script>
 </div>
 </body>
 </html>
