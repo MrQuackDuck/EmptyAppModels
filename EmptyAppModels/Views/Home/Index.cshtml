@@ -1,0 +1,24 @@
+﻿@using EmptyAppModels.Views.Shared
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+@model EmptyAppModels.Models.Person
+@{
+    Layout = "_Layout";
+}
+<div>
+    <div asp-validation-summary="ModelOnly"/>
+    <form method="post">
+        <span asp-validation-for="Name"></span>
+        <input type="text" asp-for="Name" id="name" placeholder="Name"> <br/>
+
+        <span asp-validation-for="Age"></span>
+        <input type="text" asp-for="Age" id="age" placeholder="Age"> <br/>
+
+        <span asp-validation-for="Password"></span>
+        <input type="text" asp-for="Password" id="password" placeholder="Password"> <br/>
+
+        <span asp-validation-for="PasswordConfirm"></span>
+        <input type="text" asp-for="PasswordConfirm" id="passwordConfirm" placeholder="Confirm password"> <br/>
+
+        <input class="submit" type="submit" value="Send"/>
+    </form> <br/>
+</div>

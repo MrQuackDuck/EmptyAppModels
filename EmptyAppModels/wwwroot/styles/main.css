@@ -1,0 +1,59 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+div {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    font-size: 22px;
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    margin: 2px;
+}
+
+form input.submit {
+    background: #318CE7;
+    border: 2px solid #2d79c5;
+    padding: 20px;
+    line-height: 10px;
+    height: 60px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+form input.submit:active {
+    background: #2d79c5;
+    border: 2px solid #2b6fb4;
+}
+
+form span {
+    display: block;
+    margin: 10px auto 2px auto;
+    border-radius: 4px;
+    font-size: 22px;
+    background: #FFBABA;
+    border: #ff6b6b 1px solid;
+    color: #de3333;
+    max-width: 400px;
+    padding: 8px;
+}
+
+form span:empty {
+    display: none;
+}
+
+.asp-validation-summary {
+    display: block;
+}

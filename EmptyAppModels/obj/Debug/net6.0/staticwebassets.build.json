@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "RQGpgC9bgKVA3mKFAIwpBQI5hVf49CWSNSTLaU6NyqI=",
+  "Source": "EmptyAppModels",
+  "BasePath": "_content/EmptyAppModels",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmptyAppModels\\wwwroot",
+      "Source": "EmptyAppModels",
+      "ContentRoot": "C:\\Users\\mrquackduckk\\source\\repos\\EmptyAppModels\\EmptyAppModels\\wwwroot\\",
+      "BasePath": "_content/EmptyAppModels",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mrquackduckk\\source\\repos\\EmptyAppModels\\EmptyAppModels\\wwwroot\\styles\\main.css",
+      "SourceId": "EmptyAppModels",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrquackduckk\\source\\repos\\EmptyAppModels\\EmptyAppModels\\wwwroot\\",
+      "BasePath": "_content/EmptyAppModels",
+      "RelativePath": "styles/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles\\main.css"
+    }
+  ]
+}
